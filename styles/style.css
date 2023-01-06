@@ -140,6 +140,7 @@ main section , footer{
 /*------------ Start Footer Section */
 footer {
     background-color: #151414;
+    width: 100%;
 }
 .footer {
     display: flex;
