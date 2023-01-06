@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+body {
+    width: 1600px;
+    margin: 0 auto;
+}
+.primary-btn {
+    padding: 21px 26px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+/*------------------------- Start Header Section */
+header {
+    background-image: url('../images/banner/banner.png');
+    width: 100%;
+    height: 808px;
+    text-align: right;
+}
+header section {
+    padding: 216px 230px 0 885px;
+}
+header h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+header p {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+}
+header .primary-btn {
+    color: #005FAC;
+    background-color: #FFFFFF;
+    margin-top: 32px;
+}
+/* End */
+
+main {
+    margin: 0 230px;
+}
+/* -------------------Start Previous Failures Section */
+.previous-failure {
+    margin-top: 131px;
+    display: flex;
+    justify-content: center;
+    gap: 87px;
+}
+.failure-failure h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.failure-summary {
+    width: 416px;
+    align-items: center;
+    margin-top: 300px;
+}
+.failure-summary p, .failure-summary ul {
+    font-size: 16px;
+    line-height: 26px;
+}
+.failure-check {
+    list-style-type: none;
+    margin-top: 16px;
+
+}
+.failure-check li {
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
+.failure-check li::before {
+    content: url('../images/icons/check.png');
+    height: 24px;
+    width: 24px;
+    padding-right: 10px;
+}
+/* End */
+
+/* Start Plans Section */
+.future-plans {
+    margin-top: 130px;
+    text-align: center;
+}
+.future-plans h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.plan-items {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+}
+.plan-items .item img {
+    width: 100px;
+    height: 100px;
+}
+.plan-items .item h3 {
+    font-size: 30px;
+    width: 700;
+}
+.plan-items .item p {
+    margin-top: 16px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
