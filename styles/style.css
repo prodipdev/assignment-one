@@ -45,7 +45,7 @@ header .primary-btn {
 main {
     margin: 0 230px;
 }
-main section {
+main section , footer{
     margin-top: 130px;
 }
 /* -------------------Start Previous Failures Section */
@@ -54,7 +54,7 @@ main section {
     justify-content: center;
     gap: 87px;
 }
-.failure-failure h2, .sub-banner .content h2 {
+.previous-failure h2, .sub-banner h2 {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
@@ -128,11 +128,72 @@ main section {
 .sub-banner .content {
     padding: 59px 617px 59px 64px;
 }
-.sub-banner h2 {
+.sub-banner h2{
     color: #FFFFFF;
 }
 .sub-banner button {
     color: #005FAC;
     background-color: #FFFFFF;
+}
+/* End */
+
+/*------------ Start Footer Section */
+footer {
+    background-color: #151414;
+}
+.footer {
+    display: flex;
+    padding: 130px 230px;
+    gap: 330px;
+}
+.footer h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+}
+.footer p {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 26px;
+}
+.footer .contact a {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    margin-top: 16px;
+}
+.social-icon {
+    display: flex;
+    gap: 17px;
+}
+.social-icon a {
+    margin-top: 32px;
+}
+.footer h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+.subscribe input{
+    width: 325px;
+    height: 64px;
+    background: none;
+    border: none;
+    border: #FFFFFF 2px solid;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-left: 21px;
+}
+.subscribe input::placeholder {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.subscribe button {
+    margin-top: 16px;
+    background-color: #005FAC;
+    color: #FFFFFF;
 }
 /* End */
