@@ -8,7 +8,7 @@ body {
     margin: 0 auto;
 }
 .primary-btn {
-    padding: 21px 26px;
+    padding: 21px 36px;
     font-size: 20px;
     font-weight: 600;
     border: none;
@@ -45,14 +45,16 @@ header .primary-btn {
 main {
     margin: 0 230px;
 }
+main section {
+    margin-top: 130px;
+}
 /* -------------------Start Previous Failures Section */
 .previous-failure {
-    margin-top: 131px;
     display: flex;
     justify-content: center;
     gap: 87px;
 }
-.failure-failure h2 {
+.failure-failure h2, .sub-banner .content h2 {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
@@ -86,7 +88,6 @@ main {
 
 /* Start Plans Section */
 .future-plans {
-    margin-top: 130px;
     text-align: center;
 }
 .future-plans h2 {
@@ -113,3 +114,25 @@ main {
     font-weight: 500;
     color: #737272;
 }
+/* End */
+
+/*------------ Start Sub Banner Section */
+.sub-banner {
+    background: linear-gradient(to left, rgba(0, 95, 172, 0), rgb(0, 95, 172)),
+    url('../images/watch.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+}
+.sub-banner .content {
+    padding: 59px 617px 59px 64px;
+}
+.sub-banner h2 {
+    color: #FFFFFF;
+}
+.sub-banner button {
+    color: #005FAC;
+    background-color: #FFFFFF;
+}
+/* End */
