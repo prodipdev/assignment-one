@@ -117,7 +117,7 @@ main section , footer{
 }
 .plan-items .item h3 {
     font-size: 30px;
-    width: 700;
+    font-weight: 700;
 }
 .plan-items .item p {
     margin-top: 16px;
