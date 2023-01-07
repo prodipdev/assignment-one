@@ -60,7 +60,7 @@ header .primary-btn {
 main {
     margin: 0 230px;
 }
-main section , footer{
+main section, main .previous-failure , footer{
     margin-top: 130px;
 }
 /* -------------------Start Previous Failures Section */
@@ -138,7 +138,6 @@ main section , footer{
     display: flex;
     gap: 20px;
 }
-
 .quote-item {
     margin-bottom: 10px;
     background-color: #f8f8f8;
@@ -161,7 +160,6 @@ main section , footer{
     border: #005FAC 1px solid;
     color: #005FAC;
 }
-
 .quote-write {
     height: 100%;
     border: #005FAC 2px solid;
@@ -180,7 +178,6 @@ main section , footer{
 .quote-write textarea {
     border-bottom-style: none;
 }
-
 .quote-write input, .quote-write input::placeholder{
     border-top-style: none;
     height: 40px;
