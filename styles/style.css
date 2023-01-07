@@ -139,17 +139,17 @@ main section , footer{
     gap: 20px;
 }
 
-.quote-content figure {
+.quote-item {
     margin-bottom: 10px;
     background-color: #f8f8f8;
     padding: 5px;
     border-radius: 5px;
 }
-.quote-content figcaption::before {
+.quote-content .author::before {
     content: "- ";
     font-size: 20px;
 }
-.quote-content figcaption {
+.quote-content .author {
     color: #929292;
     padding-left: 10px;
     font-size: 13px;
