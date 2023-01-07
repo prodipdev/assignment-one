@@ -14,6 +14,18 @@ body {
     border: none;
     border-radius: 5px;
 }
+.white-btn:hover {
+    background-color: #eeeeee;
+}
+.white-btn:active {
+    background-color: #d6d6d6;
+}
+.blue-btn:hover {
+    background-color: #00559b;
+}
+.blue-btn:active {
+    background-color: #004b88;
+}
 /*------------------------- Start Header Section */
 header {
     background-image: url('../images/banner/banner.png');
@@ -54,7 +66,7 @@ main section , footer{
     justify-content: center;
     gap: 87px;
 }
-.previous-failure h2, .sub-banner h2 {
+.previous-failure h2, .sub-banner h2, .quote-container h2 {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
@@ -71,7 +83,6 @@ main section , footer{
 .failure-check {
     list-style-type: none;
     margin-top: 16px;
-
 }
 .failure-check li {
     display: flex;
@@ -113,6 +124,82 @@ main section , footer{
     font-size: 25px;
     font-weight: 500;
     color: #737272;
+}
+/* End */
+
+/*--------------------------- Start Quote Section */
+.quote-container h2 {
+    text-align: center;
+}
+.quotes-body {
+    display: flex;
+    gap: 20px;
+}
+
+.quote-content figure {
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+    padding: 5px;
+    border-radius: 5px;
+}
+.quote-content figcaption::before {
+    content: "- ";
+    font-size: 20px;
+}
+.quote-content figcaption {
+    color: #929292;
+    padding-left: 10px;
+    font-size: 13px;
+}
+.quote-content button {
+    margin-top: 18px;
+    padding: 5px 20px;
+    font-size: 15px;
+    border: #005FAC 1px solid;
+    color: #005FAC;
+}
+
+.quote-write {
+    height: 100%;
+    border: #005FAC 2px solid;
+    border-radius: 7px 7px 10px 10px ;
+}
+.quote-write textarea, .quote-write input {
+    display: block;
+    width: 400px;
+    border: none;
+    border-radius: 6px 6px 0 0;
+    padding: 5px;
+}
+.quote-write textarea, .quote-write textarea::placeholder {
+    font-size: 18px;
+}
+.quote-write textarea {
+    border-bottom-style: none;
+}
+
+.quote-write input, .quote-write input::placeholder{
+    border-top-style: none;
+    height: 40px;
+    background-color: #f8f8f8;
+    font-size: 18px;
+}
+.quote-write hr {
+    width: 80%;
+}
+textarea{
+    resize: none;
+}
+.quote-write button {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #005FAC;
+    color: white;
+    width: 100%;
+    height: 40px;
+    z-index: 1;
+    border: none;
+    border-radius: 0 0 7px 7px;
 }
 /* End */
 
