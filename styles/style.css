@@ -4,7 +4,7 @@
     font-family: 'Quicksand', sans-serif;
 }
 body {
-    width: 1600px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 button {
@@ -31,13 +31,13 @@ button {
 }
 /*------------------------- Start Header Section */
 header {
-    background-image: url('../images/banner/banner.png');
+    background: linear-gradient(to bottom, #83838300, #00000098),
+    url('../images/banner/banner.webp') center/cover;
     width: 100%;
-    height: 808px;
     text-align: right;
 }
 header section {
-    padding: 216px 230px 0 885px;
+    padding: 110px 80px 80px 485px;
 }
 header h1 {
     font-size: 65px;
@@ -53,12 +53,12 @@ header p {
 header .primary-btn {
     color: #005FAC;
     background-color: #FFFFFF;
-    margin-top: 32px;
+    margin-top: 30px;
 }
 /* End */
 
 main {
-    margin: 0 230px;
+    margin: 0 100px;
 }
 main section, main .previous-failure , footer{
     margin-top: 130px;
@@ -67,7 +67,7 @@ main section, main .previous-failure , footer{
 .previous-failure {
     display: flex;
     justify-content: center;
-    gap: 87px;
+    gap: 50px;
 }
 .previous-failure h2, .sub-banner h2, .quote-container h2 {
     font-size: 40px;
@@ -112,7 +112,7 @@ main section, main .previous-failure , footer{
     margin-top: 50px;
     display: flex;
     justify-content: center;
-    gap: 86px;
+    gap: 50px;
 }
 .plan-items .item img {
     width: 100px;
@@ -144,16 +144,17 @@ main section, main .previous-failure , footer{
     padding: 5px;
     border-radius: 5px;
 }
-.quote-content .author::before {
+#author::before {
     content: "- ";
     font-size: 20px;
 }
-.quote-content .author {
+.author {
     color: #929292;
     padding-left: 10px;
     font-size: 13px;
+    margin-top: 5px;
 }
-.quote-content button {
+#quote-content button, .learn-more-btn {
     margin-top: 18px;
     padding: 5px 20px;
     font-size: 15px;
@@ -190,7 +191,7 @@ main section, main .previous-failure , footer{
 textarea{
     resize: none;
 }
-.quote-write button {
+.quote-write button{
     font-size: 20px;
     font-weight: 600;
     background-color: #005FAC;
@@ -205,8 +206,8 @@ textarea{
 
 /*------------ Start Sub Banner Section */
 .sub-banner {
-    background: linear-gradient(to left, rgba(0, 95, 172, 0), rgb(0, 95, 172)),
-    url('../images/watch.png');
+    background: linear-gradient(to left, #f8f8f800, #000000ee),
+    url('../images/banner/sub-banner.webp');
     background-repeat: no-repeat;
     height: 300px;
     width: 100%;
@@ -231,7 +232,7 @@ footer {
 }
 .footer {
     display: flex;
-    padding: 130px 230px;
+    padding: 80px;
     gap: 330px;
 }
 .footer h2 {
@@ -285,3 +286,4 @@ footer {
     color: #FFFFFF;
 }
 /* End */
+
